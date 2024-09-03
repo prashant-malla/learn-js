@@ -9,12 +9,18 @@
 
 // and Object
 
+let counter = 0;
+console.log(counter++) // 0 -> counter: 1
+console.log(++counter) // 2
+// console.log(x === undefined); // true
+// var x = 3;
 
+let greet = 'hello, john\'s '
 let name = 'john' //string
 let age = 22 // number
 let isLoggedIn = false // boolean
 let college; // undefine
 let phone = null; // null(is a standalone value)
 
-console.log(1 + 3 + "6")
-console.log(typeof (age)) 
+// console.log(1 + 3 + "6")
+// console.log(typeof (age)) 
